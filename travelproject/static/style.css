@@ -1,0 +1,26 @@
+body {
+    background-color: #C0C0C0;
+}
+
+.custom-form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    background-color: #999999;
+}
+
+.custom-form label {
+    font-weight: bold;
+}
+
+.custom-form input[type="text"],
+.custom-form input[type="file"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.custom-form button[type="submit"] {
+    width: 100%;
+}
